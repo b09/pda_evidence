@@ -22,7 +22,8 @@ class CardGame
 
   def checkforAce(card)
   # 2 ERRORS:
-  # 1) separation between words for method names should use an underscore '_'. EX: check_for_ace
+  # 1) should use snake case. separation between words for method names should use an underscore '_'.
+  # EX: check_for_ace
   # 2) all characters should be lowercase
 
     if card.value = 1
