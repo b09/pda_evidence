@@ -33,6 +33,4 @@ class TestCardGame < Minitest::Test
     result = CardGame.cards_total(@all_cards)
     assert_equal("You have a total of 10", result)
   end
-
-
 end
